@@ -14,64 +14,7 @@ export default function InstructionsComponent() {
 				</p>
 			</header>
 
-			<div className={styles.buttons_container}>
-				<a
-					target={"_blank"}
-					href={"https://createweb3dapp.alchemy.com/#components"}
-				>
-					<div className={styles.button}>
-						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
-						<p>Add Components</p>
-					</div>
-				</a>
-				<a
-					target={"_blank"}
-					href={"https://createweb3dapp.alchemy.com/#templates"}
-				>
-					<div className={styles.button}>
-						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
-						<p>Explore Templates</p>
-					</div>
-				</a>
-				<a
-					target={"_blank"}
-					href={"https://docs.alchemy.com/docs/create-web3-dapp"}
-				>
-					<div className={styles.button}>
-						<img
-							src="https://static.alchemyapi.io/images/cw3d/Icon%20Large/file-eye-01-l.svg"
-							width={"20px"}
-							height={"20px"}
-						/>
-						<p>Visit Docs</p>
-					</div>
-				</a>
-			</div>
-			<div className={styles.footer}>
-				<a href="https://alchemy.com/?a=create-web3-dapp" target={"_blank"}>
-					<img
-						id="badge-button"
-						style={{ width: "240px", height: "53px" }}
-						src="https://static.alchemyapi.io/images/marketing/badgeLight.png"
-						alt="Alchemy Supercharged"
-					/>
-				</a>
-				<div className={styles.icons_container}>
-					<div>
-						<a
-							href="https://github.com/alchemyplatform/create-web3-dapp"
-							target={"_blank"}
-						>
-							Leave a star on Github
-						</a>
-					</div>
-					<div>
-						<a
-							href="https://twitter.com/AlchemyPlatform"
-							target={"_blank"}
-						>
-							Follow us on Twitter
-						</a>
+			
 					</div>
 				</div>
 			</div>
